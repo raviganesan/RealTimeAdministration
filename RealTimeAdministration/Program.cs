@@ -27,7 +27,7 @@ namespace RealTimeAdministration
                 }
                 else
                 {
-                    Console.WriteLine("Connected");
+                    Console.WriteLine("Administrator Connected");
                 }
 
             }).Wait();
@@ -66,7 +66,7 @@ namespace RealTimeAdministration
                 {
                     isCommand = true;
                     Console.Clear();
-                    Console.WriteLine("Connected");
+                    Console.WriteLine("Administrator Connected");
                 }
 
 
