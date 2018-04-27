@@ -27,7 +27,6 @@ namespace RealTimeAdministration
                 }
                 else
                 {
-                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Connected");
                 }
 
@@ -69,7 +68,7 @@ namespace RealTimeAdministration
                 {
                     isCommand = true;
                     Console.Clear();
-                    Console.WriteLine("Connected");
+                    Console.WriteLine("Administrator Connected");
                 }
 
 
