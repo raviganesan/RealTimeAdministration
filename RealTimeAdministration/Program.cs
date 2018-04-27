@@ -27,10 +27,13 @@ namespace RealTimeAdministration
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Connected");
                 }
 
             }).Wait();
+
+            Console.ForegroundColor = ConsoleColor.White;
 
             //myHub.Invoke<string>("Send", "HELLO World ").ContinueWith(task => {
             //    if (task.IsFaulted)
@@ -48,7 +51,7 @@ namespace RealTimeAdministration
             //    Console.WriteLine(param);
             //});
 
-            
+
 
             while (true)
             {
